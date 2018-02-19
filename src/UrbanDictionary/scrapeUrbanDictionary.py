@@ -12,7 +12,7 @@ price_box = soup.find('div', attrs={'class': 'price'})
 print(price_box.text)
 print(name_box.text)
 
-urban_dictionary_mainPage = 'https://www.urbandictionary.com/popular.php?character=';
+urban_dictionary_mainPage = 'https://www.urbandictionary.com/popular.php?character='
 urban_dictionary_base = 'https://www.urbandictionary.com'
 
 with open('urban_dictionary_db_final.csv', 'a') as file:
